@@ -18,6 +18,12 @@ An LLM (Large Language Model) like GPT was used to explain the model’s logic i
 
 This explanation layer is meant to assist non-technical stakeholders in understanding why an application may be flagged, improving transparency and interpretability.
 
+The project includes:
+- A trained fraud detection model
+- Exploratory data analysis and visualizations
+- A saved model file for deployment
+- This README file documenting the process
+
 ---
 # Loan Application Fraud Detector + LLM Auditor
 
@@ -33,9 +39,5 @@ This explanation layer is meant to assist non-technical stakeholders in understa
 3. Run cells to reproduce training
 4. Load saved model with `joblib.load()`
 
-The project includes:
-- A trained fraud detection model
-- Exploratory data analysis and visualizations
-- A saved model file for deployment
-- This README file documenting the process
+
 
